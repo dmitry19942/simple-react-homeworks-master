@@ -1,0 +1,21 @@
+.default {
+    background: blue;
+    color: white;
+}
+
+.red {
+    background: red;
+}
+
+.button:focus {
+    outline: #bbffbb;
+}
+
+.button:active {
+    background: #bbffbb;
+}
+
+.button:disabled {
+    color: aqua;
+    cursor: auto;
+}

@@ -1,0 +1,17 @@
+.button {
+    margin: 10px;
+    width: 50px;
+
+    background: gold;
+    color: green;
+    outline: none;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 80px;
+}
