@@ -13,31 +13,32 @@
 .content {
     padding: 10px;
     border-radius: 5px 5px 5px 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(16, 0, 254);
 }
 
 .angle {
     width: 15px;
     height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(0, 0, 0, 0.3) 0);
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgb(16, 0, 254) 0);
 }
 
 .text {
     min-width: 150px;
     max-width: 300px;
     word-wrap: break-word;
+    color: white;
 }
 
 .name {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    color: #bbffbb;
+    color: white;
 }
 
 .time {
     display: flex;
     justify-content: flex-end;
-    color: #bbffbb;
+    color: white;
 }
 
 

@@ -5,30 +5,30 @@
 
 .error {
     color: red;
-    height: 21px;
+    height: 20px;
     margin-left: 10px;
 }
 
 .input {
-    margin: 10px;
-    background: aqua;
+    margin: 5px;
+    background: white;
     color: green;
 }
 
 .errorInput {
-    margin: 10px;
-    background: aqua;
+    margin: 5px;
+    background: white;
     color: green;
     border: 2px solid red;
 }
 
 .button {
-    margin: 10px;
+    margin: 5px;
     width: 60px;
-    background: aqua;
-    color: green;
+    background: blue;
+    color: white;
 }
 
 .count {
-    margin: 10px;
+    margin: 5px;
 }

@@ -1,10 +1,73 @@
 .button {
     margin: 10px;
-    width: 50px;
+    width: 30px;
 
     background: gold;
+    color: black;
+}
+
+.all {
+    margin: 10px;
+    width: 40px;
+    background: blue;
+    color: white;
+    border-color: blue;
+}
+
+.noAll {
+    margin: 10px;
+    width: 40px;
+    background: white;
+    color: blue;
+    border-color: blue;
+}
+
+.high {
+    margin: 10px;
+    width: 50px;
+    background: red;
+    color: white;
+    border-color: red;
+}
+
+.noHigh {
+    margin: 10px;
+    width: 50px;
+    background: white;
+    color: red;
+    border-color: red;
+}
+
+.middle {
+    margin: 10px;
+    width: 60px;
+    background: orange;
+    color: white;
+    border-color: orange;
+}
+
+.noMiddle {
+    margin: 10px;
+    width: 60px;
+    background: white;
+    color: orange;
+    border-color: orange;
+}
+
+.low {
+    margin: 10px;
+    width: 40px;
+    background: green;
+    color: white;
+    border-color: green;
+}
+
+.noLow {
+    margin: 10px;
+    width: 40px;
+    background: white;
     color: green;
-    outline: none;
+    border-color: green;
 }
 
 .affair {
@@ -14,4 +77,19 @@
 .item {
     margin: 10px;
     width: 80px;
+}
+
+.priorityHigh {
+    margin: 10px;
+    color: red;
+}
+
+.priorityMiddle {
+    margin: 10px;
+    color: orange;
+}
+
+.priorityLow {
+    margin: 10px;
+    color: green;
 }

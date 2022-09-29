@@ -24,20 +24,15 @@ function Affairs(props: AffairsPropsType) {
     const setMiddle = () => {props.setFilter('middle')}
     const setLow = () => {props.setFilter('low')}
 
-    const onAll = s.button
-    const onHigh = s.button
-    const onMiddle = s.button
-    const onLow = s.button
-
     return (
         <div>
 
             {mappedAffairs}
 
-            <button onClick={setAll} className={onAll}>All</button>
-            <button onClick={setHigh} className={onHigh}>High</button>
-            <button onClick={setMiddle} className={onMiddle}>Middle</button>
-            <button onClick={setLow} className={onLow}>Low</button>
+            <button onClick={setAll} className={props.filter === 'all' ? s.all : s.noAll}>All</button>
+            <button onClick={setHigh} className={props.filter === 'high' ? s.high : s.noHigh}>High</button>
+            <button onClick={setMiddle} className={props.filter === 'middle' ? s.middle : s.noMiddle}>Middle</button>
+            <button onClick={setLow} className={props.filter === 'low' ? s.low : s.noLow}>Low</button>
         </div>
     )
 }

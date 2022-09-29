@@ -2,10 +2,10 @@ import React from 'react'
 import Message from "./Message";
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Some Name',
-    message: 'some text',
-    time: '22:00',
+    avatar: 'https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector.png',
+    name: 'dmitriy19942',
+    message: 'Hi, how are you?',
+    time: '10:25',
 }
 
 
