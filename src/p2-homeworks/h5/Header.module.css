@@ -1,12 +1,31 @@
 .nav {
-    grid-area: n;
-    padding: 20px;
+    display: flex;
+    width: 250px;
+    transition-duration: 700ms;
+    transform: translate(-200px);
+}
+
+.nav:hover {
+    transition-duration: 700ms;
+    transform: translate(0);
 }
 
 .item a {
     color: black;
     text-decoration: none;
+    margin-right: 10px;
 }
 .item a.active {
     color: blue;
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background: red;
+}
+
+.page404 {
+    text-align: center;
 }
