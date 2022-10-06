@@ -1,6 +1,7 @@
 .default {
     background: blue;
     color: white;
+    margin-left: 10px;
 }
 
 .red {
