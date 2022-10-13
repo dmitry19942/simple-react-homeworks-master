@@ -1,0 +1,15 @@
+.option {
+    color: blue;
+    background: aquamarine;
+}
+
+.option:checked {
+    background: blue;
+    color: aquamarine;
+}
+
+.select {
+    width: 60px;
+    padding: 2px;
+    color: blue;
+}
