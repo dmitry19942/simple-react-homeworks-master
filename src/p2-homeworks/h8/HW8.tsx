@@ -8,7 +8,7 @@ export type UserType = {
     age: number
 }
 
-const initialPeople = [
+const initialPeople: UserType[] = [
     {_id: 0, name: 'Кот', age: 3},
     {_id: 1, name: 'Александр', age: 66},
     {_id: 2, name: 'Коля', age: 16},
@@ -29,6 +29,10 @@ function HW8() {
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
 
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
+
+    const check = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
+
     return (
         <div>
             <hr/>
@@ -38,8 +42,9 @@ function HW8() {
             {finalPeople}
 
             <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div>sort down</div>
-            check 18
+            <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+            <div><SuperButton onClick={check}>check 18</SuperButton> </div>
+
 
             <hr/>
             {/*для личного творчества, могу проверить*/}

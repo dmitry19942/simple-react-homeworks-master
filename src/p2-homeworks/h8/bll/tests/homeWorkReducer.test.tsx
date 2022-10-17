@@ -17,7 +17,7 @@ beforeEach(() => {
 
 test('sort name up', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'up'})
-    const state = newState.sort((a: any, b: any) => a.name < b.name? -1 : 1)
+    const state = newState.sort((a: any, b: any) => a.name < b.name ? -1 : 1)
 
     expect(state).toEqual([
         {_id: 1, name: 'Александр', age: 66},
@@ -30,7 +30,7 @@ test('sort name up', () => {
 })
 test('sort name down', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'down'})
-    const state = newState.sort((a: any, b: any) => a.name < b.name? 1 : -1)
+    const state = newState.sort((a: any, b: any) => a.name < b.name ? 1 : -1)
     expect(state).toEqual([
         {_id: 0, name: 'Кот', age: 3},
         {_id: 2, name: 'Коля', age: 16},
