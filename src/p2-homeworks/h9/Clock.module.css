@@ -1,0 +1,13 @@
+.items {
+    color: blue;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.hide {
+    color: white;
+}
+
+.disabled {
+    opacity: 0.5;
+}

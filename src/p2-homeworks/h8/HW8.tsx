@@ -23,10 +23,11 @@ function HW8() {
 
     // need to fix any
     const finalPeople = people.map((p: UserType) => (
-        <div key={p._id} className={s.item}>
-            <span>{p.name}</span>
-            {p.age}
-        </div>
+
+            <div key={p._id} className={s.item}>
+                <span>{p.name}</span>
+                {p.age}
+            </div>
     ))
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
@@ -41,11 +42,18 @@ function HW8() {
             homeworks 8
 
             {/*should work (должно работать)*/}
+            <div className={s.header}>
+                <div>Name</div>
+                <div>Age</div>
+            </div>
+
             {finalPeople}
 
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
-            <div><SuperButton onClick={check}>check 18</SuperButton> </div>
+            <div className={s.button}>
+                <SuperButton onClick={sortUp}>sort up</SuperButton>
+                <SuperButton onClick={sortDown}>sort down</SuperButton>
+                <SuperButton onClick={check}>check 18</SuperButton>
+            </div>
 
 
             <hr/>

@@ -5,3 +5,16 @@
     margin-left: 10px;
     color: blue;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.button {
+    padding-top: 10px;
+}
